@@ -31,5 +31,4 @@ describe("Duel Duo tests", () => {
     await driver.sleep(1000)
     expect(await driver.findElement(By.id(`player-duo`)).isDisplayed()).toBe(true)
   })
-
 })
